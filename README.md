@@ -20,6 +20,7 @@ Each folder `sentinel-5p/<date UTC>/<product>/` holds the files exactly as expor
 | 2026-10-17 | CO | 1 | ~790 × 550 km (Banff to east of Saskatoon) | Visualised layer only. Fire site is no-data: a cloud band runs SW–NE through it. Clear patches near Edmonton, Calgary, Saskatoon. |
 | 2026-10-16 | CH4 | 2 | ~790 × 550 km | 1.2% of pixels valid (scattered); nearest valid pixel ~160 km from the base. Valid range 1,854–1,984 ppb, median 1,916 ppb (normal background). |
 | 2026-10-16 | AER_AI | 4 | ~790 × 550 km | Baseline, day before. Full coverage. Base 0.40, ~10 km NE 0.66 (Oct. 17: 0.38 and 0.52). Regional streaks present, scene median 0.53. Comparison: `sentinel-5p/aer_ai_oct16_vs_oct17.png`. |
+| 2026-10-17 | CH4 | 2 | ~790 × 550 km | 3.8% valid. Nearest readings 29–32 km north/north-northwest of the base (not downwind); none over the base or to the east. Within 50 km: median 1,923 ppb, max 1,936; scene median 1,914, s.d. 20. Nothing above normal variation. |
 | 2026-10-17 | AER_AI | 4 | ~790 × 550 km | Full coverage. Long SW–NE bands of raised index across the whole region (frontal cloud/regional haze). Base 0.38 (scene median 0.03); 0.5–0.9 within ~10 km to the NE. No distinct plume from the base separable from the regional band. |
 | 2026-10-18 | AER_AI | 4 | ~790 × 550 km | After. Full coverage. Base 0.24, ~10 km NE 0.25, scene median 0.27. Three-day comparison: `sentinel-5p/aer_ai_oct16_17_18.png`. |
 | 2026-10-18 | CO | 4 | ~790 × 550 km | TIFF + earlier JPG. 71% valid. At the base 0.0295 mol/m², the scene median (0.0297); no residual plume. |
