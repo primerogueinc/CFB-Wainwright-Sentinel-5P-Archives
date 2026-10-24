@@ -1,0 +1,105 @@
+{
+ "source": "Copernicus Browser export (Sentinel Hub), received from Prime Rogue",
+ "date_utc": "2026-10-16",
+ "product": "AER_AI",
+ "note": "",
+ "original_upload": "81be3722-Browser_images_40.zip",
+ "original_upload_sha256": "76c7ab8b9b6c4f1e68462e29ea439397b51fe83255276739103239be73330642",
+ "files": {
+  "2026-10-16-00_00_2026-10-16-23_59_Sentinel-5P_AER_AI_AER_AI_340_380_(Raw).tiff": {
+   "bytes": 96460,
+   "sha256": "f8dd9e5fa7e5f116bce76ee5f39bf1d6efb6bb7f91675887d877a1cb201bac9e",
+   "bands": 1,
+   "shape": [
+    260,
+    372
+   ],
+   "bounds": [
+    -116.8398,
+    50.1417,
+    -105.1503,
+    55.0972
+   ],
+   "pixel_km_approx": [
+    2.12,
+    2.11
+   ],
+   "raw": true,
+   "valid_frac": 0.998,
+   "stats": {
+    "min": -2.277,
+    "median": 0.529,
+    "max": 3.471,
+    "at_fire": 0.404111
+   }
+  },
+  "2026-10-16-00_00_2026-10-16-23_59_Sentinel-5P_AER_AI_AER_AI_340_and_380.tiff": {
+   "bytes": 122791,
+   "sha256": "5c282c2d84bb6c96fec2963fe00db30173449a66f015de46ced11ba6065a1111",
+   "bands": 3,
+   "shape": [
+    260,
+    372
+   ],
+   "bounds": [
+    -116.8398,
+    50.1417,
+    -105.1503,
+    55.0972
+   ],
+   "pixel_km_approx": [
+    2.12,
+    2.11
+   ],
+   "raw": false
+  },
+  "2026-10-16-00_00_2026-10-16-23_59_Sentinel-5P_AER_AI_AER_AI_354_388_(Raw).tiff": {
+   "bytes": 97238,
+   "sha256": "82bd6b5101fcbc2843008fbf4670754ee21e52d43f15e1a87493710389f49f84",
+   "bands": 1,
+   "shape": [
+    260,
+    372
+   ],
+   "bounds": [
+    -116.8398,
+    50.1417,
+    -105.1503,
+    55.0972
+   ],
+   "pixel_km_approx": [
+    2.12,
+    2.11
+   ],
+   "raw": true,
+   "valid_frac": 0.998,
+   "stats": {
+    "min": -2.179,
+    "median": 0.3856,
+    "max": 3.444,
+    "at_fire": 0.251496
+   }
+  },
+  "2026-10-16-00_00_2026-10-16-23_59_Sentinel-5P_AER_AI_AER_AI_354_and_388.tiff": {
+   "bytes": 117471,
+   "sha256": "0bde3850a0eecbda6ed6a715d9ab1592fa735d68c925133169b983e075554b7f",
+   "bands": 3,
+   "shape": [
+    260,
+    372
+   ],
+   "bounds": [
+    -116.8398,
+    50.1417,
+    -105.1503,
+    55.0972
+   ],
+   "pixel_km_approx": [
+    2.12,
+    2.11
+   ],
+   "raw": false
+  }
+ },
+ "licence": "Contains modified Copernicus Sentinel data [2026]"
+}
