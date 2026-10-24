@@ -1,0 +1,19 @@
+{
+ "source": "Copernicus Browser export (Sentinel Hub), received from Prime Rogue",
+ "date_utc": "2026-10-18",
+ "product": "CO",
+ "note": "",
+ "original_upload": "28b2b553-Browser_images_36.zip",
+ "original_upload_sha256": "426be77bae6c8c4b24252ded6c138b562e4d21f8a20703e8c1ad8cdc48aa5748",
+ "files": {
+  "2026-10-18-00_00_2026-10-18-23_59_Sentinel-5P_CO_CO_(Raw).jpg": {
+   "bytes": 8449,
+   "sha256": "3be5939fb2454c816aabc0be718d94a52b00349552046a1c65cd53fd5c86bc20"
+  },
+  "2026-10-18-00_00_2026-10-18-23_59_Sentinel-5P_CO_Carbon_Monoxide.jpg": {
+   "bytes": 58264,
+   "sha256": "fdabae79de468d27f31938ac47ef4de6ece90e653efc20d60444500b5cc78bf7"
+  }
+ },
+ "licence": "Contains modified Copernicus Sentinel data [2026]"
+}
