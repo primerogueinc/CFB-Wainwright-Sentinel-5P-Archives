@@ -20,12 +20,13 @@ Each folder `sentinel-5p/<date UTC>/<product>/` holds the files exactly as expor
 | 2026-10-17 | CO | 1 | ~790 × 550 km (Banff to east of Saskatoon) | Visualised layer only. Fire site is no-data: a cloud band runs SW–NE through it. Clear patches near Edmonton, Calgary, Saskatoon. |
 | 2026-10-16 | AER_AI | 4 | ~790 × 550 km | Baseline, day before. Full coverage. Base 0.40, ~10 km NE 0.66 (Oct. 17: 0.38 and 0.52). Regional streaks present, scene median 0.53. Comparison: `sentinel-5p/aer_ai_oct16_vs_oct17.png`. |
 | 2026-10-17 | AER_AI | 4 | ~790 × 550 km | Full coverage. Long SW–NE bands of raised index across the whole region (frontal cloud/regional haze). Base 0.38 (scene median 0.03); 0.5–0.9 within ~10 km to the NE. No distinct plume from the base separable from the regional band. |
+| 2026-10-18 | AER_AI | 4 | ~790 × 550 km | After. Full coverage. Base 0.24, ~10 km NE 0.25, scene median 0.27. Three-day comparison: `sentinel-5p/aer_ai_oct16_17_18.png`. |
 | 2026-10-18 | CO | 4 | ~790 × 550 km | TIFF + earlier JPG. 71% valid. At the base 0.0295 mol/m², the scene median (0.0297); no residual plume. |
 
 Most gas products are quality-filtered under cloud, so on cloudy days only the aerosol index covers the area. From Oct 16 on, exports cover a wider window and only AER_AI, CO and NO2.
 ## Finding so far
 
-The Oct. 17 pass (2:34 p.m. MDT) shows no smoke signal from the fire that can be separated from regional weather: the aerosol index at and just downwind of the base was the same as, or lower than, the day before. CO over the base was masked by cloud on Oct. 17 and at background level on Oct. 18. Sentinel-5P neither confirms nor rules out anything about the fire; it does not show a large elevated plume before 2:34 p.m.
+The Oct. 17 pass (2:34 p.m. MDT) shows no smoke signal from the fire that can be separated from regional weather: the aerosol index at and just downwind of the base was the same as, or lower than, the day before (base 0.40 / 0.38 / 0.24 on Oct. 16 / 17 / 18; ~10 km NE 0.66 / 0.52 / 0.25). CO over the base was masked by cloud on Oct. 17 and at background level on Oct. 18. Sentinel-5P neither confirms nor rules out anything about the fire; it does not show a large elevated plume before 2:34 p.m.
 
 ## Pass times
 
