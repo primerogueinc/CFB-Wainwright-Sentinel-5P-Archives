@@ -20,6 +20,10 @@ Each folder `sentinel-5p/<date UTC>/<product>/` holds the files exactly as expor
 | 2026-10-17 | CO | 1 | ~790 × 550 km (Banff to east of Saskatoon) | Visualised layer only. Fire site is no-data: a cloud band runs SW–NE through it. Clear patches near Edmonton, Calgary, Saskatoon. |
 
 Most gas products are quality-filtered under cloud, so on cloudy days only the aerosol index covers the area. From Oct 16 on, exports cover a wider window and only AER_AI, CO and NO2.
+## Pass times
+
+`pass_times.csv` (from `scripts/pass_times.py`) lists each daytime pass. On Oct. 17 the pass that saw the base was at **2:34 p.m. MDT** (20:34 UTC), 240 km off-track: during the fire, before the GOES-18 peak at 3:30 p.m. Exports are daily mosaics, so a day's file can combine two passes.
+
 ## Adding an export
 
 ```
