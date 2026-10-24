@@ -18,6 +18,7 @@ Each folder `sentinel-5p/<date UTC>/<product>/` holds the files exactly as expor
 | 2026-10-14 | SO2 | 4 | ~50 × 34 km | No valid pixels. TIFF and JPG exports. |
 | 2026-10-14 | O3 | 1 | ~50 × 34 km | Visualised layer only (no raw values). |
 | 2026-10-17 | CO | 1 | ~790 × 550 km (Banff to east of Saskatoon) | Visualised layer only. Fire site is no-data: a cloud band runs SW–NE through it. Clear patches near Edmonton, Calgary, Saskatoon. |
+| 2026-10-17 | AER_AI | 4 | ~790 × 550 km | Full coverage. Long SW–NE bands of raised index across the whole region (frontal cloud/regional haze). Base 0.38 (scene median 0.03); 0.5–0.9 within ~10 km to the NE. No distinct plume from the base separable from the regional band. |
 | 2026-10-18 | CO | 4 | ~790 × 550 km | TIFF + earlier JPG. 71% valid. At the base 0.0295 mol/m², the scene median (0.0297); no residual plume. |
 
 Most gas products are quality-filtered under cloud, so on cloudy days only the aerosol index covers the area. From Oct 16 on, exports cover a wider window and only AER_AI, CO and NO2.
