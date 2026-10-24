@@ -1,0 +1,31 @@
+{
+ "source": "Copernicus Browser export (Sentinel Hub), received from Prime Rogue",
+ "date_utc": "2026-10-17",
+ "product": "CO",
+ "note": "Wide window (~790 x 550 km). Visualised layer only, no raw values. Fire site and a SW-NE band through it are no-data (quality-filtered, cloud).",
+ "original_upload": "co17.zip",
+ "original_upload_sha256": "d63da4de88c6a9a7997b531cb26aa21b847687689dcdc2ae452ac76bb0996d58",
+ "files": {
+  "2026-10-17-00_00_2026-10-17-23_59_Sentinel-5P_CO_Carbon_Monoxide.tiff": {
+   "bytes": 41758,
+   "sha256": "bd412b57ef7dc77583240199a5a6e8e873144b73dc6194a0f997164f0ac30cf1",
+   "bands": 3,
+   "shape": [
+    260,
+    372
+   ],
+   "bounds": [
+    -116.7079,
+    50.1347,
+    -105.0185,
+    55.0909
+   ],
+   "pixel_km_approx": [
+    2.12,
+    2.11
+   ],
+   "raw": false
+  }
+ },
+ "licence": "Contains modified Copernicus Sentinel data [2026]"
+}

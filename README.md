@@ -17,6 +17,7 @@ Each folder `sentinel-5p/<date UTC>/<product>/` holds the files exactly as expor
 | 2026-10-14 | CH4 | 2 | ~50 × 34 km | No valid pixels (quality-filtered, likely cloud). |
 | 2026-10-14 | SO2 | 4 | ~50 × 34 km | No valid pixels. TIFF and JPG exports. |
 | 2026-10-14 | O3 | 1 | ~50 × 34 km | Visualised layer only (no raw values). |
+| 2026-10-17 | CO | 1 | ~790 × 550 km (Banff to east of Saskatoon) | Visualised layer only. Fire site is no-data: a cloud band runs SW–NE through it. Clear patches near Edmonton, Calgary, Saskatoon. |
 
 Most gas products are quality-filtered under cloud, so on cloudy days only the aerosol index covers the area. From Oct 16 on, exports cover a wider window and only AER_AI, CO and NO2.
 ## Adding an export
