@@ -1,0 +1,58 @@
+{
+ "source": "Copernicus Browser export (Sentinel Hub), received from Prime Rogue",
+ "date_utc": "2026-10-16",
+ "product": "CH4",
+ "note": "",
+ "original_upload": "2f7cf612-Browser_images_42.zip",
+ "original_upload_sha256": "b62f0ef096799bee0141e3feedc83dce228deb93a2c8a922c8d5c488da22c3cd",
+ "files": {
+  "2026-10-16-00_00_2026-10-16-23_59_Sentinel-5P_CH4_CH4_(Raw).tiff": {
+   "bytes": 3575,
+   "sha256": "a735925d6470b4fc0531726f410858fced2ea93fd98a3b73a2f7fc2d77511881",
+   "bands": 1,
+   "shape": [
+    260,
+    372
+   ],
+   "bounds": [
+    -116.8398,
+    50.1417,
+    -105.1503,
+    55.0972
+   ],
+   "pixel_km_approx": [
+    2.12,
+    2.11
+   ],
+   "raw": true,
+   "valid_frac": 0.012,
+   "stats": {
+    "min": 1854.0,
+    "median": 1916.0,
+    "max": 1984.0,
+    "at_fire": null
+   }
+  },
+  "2026-10-16-00_00_2026-10-16-23_59_Sentinel-5P_CH4_Methane.tiff": {
+   "bytes": 6275,
+   "sha256": "ea7ea7d34a5293bab0e7b9196de62681df3c9c05dffd5d5d112700fe33ad54e8",
+   "bands": 3,
+   "shape": [
+    260,
+    372
+   ],
+   "bounds": [
+    -116.8398,
+    50.1417,
+    -105.1503,
+    55.0972
+   ],
+   "pixel_km_approx": [
+    2.12,
+    2.11
+   ],
+   "raw": false
+  }
+ },
+ "licence": "Contains modified Copernicus Sentinel data [2026]"
+}
