@@ -3,8 +3,6 @@
  "date_utc": "2026-10-16",
  "product": "CH4",
  "note": "",
- "original_upload": "2f7cf612-Browser_images_42.zip",
- "original_upload_sha256": "b62f0ef096799bee0141e3feedc83dce228deb93a2c8a922c8d5c488da22c3cd",
  "files": {
   "2026-10-16-00_00_2026-10-16-23_59_Sentinel-5P_CH4_CH4_(Raw).tiff": {
    "bytes": 3575,
@@ -54,5 +52,15 @@
    "raw": false
   }
  },
- "licence": "Contains modified Copernicus Sentinel data [2026]"
+ "licence": "Contains modified Copernicus Sentinel data [2026]",
+ "original_uploads": [
+  {
+   "name": "2f7cf612-Browser_images_42.zip",
+   "sha256": "b62f0ef096799bee0141e3feedc83dce228deb93a2c8a922c8d5c488da22c3cd"
+  },
+  {
+   "name": "0f83d607-Browser_images_43.zip",
+   "sha256": "2b2f24b55e9c19dd87f71715095778732c3f400d8ffa9fdc8f16ca62c816c773"
+  }
+ ]
 }
