@@ -1,0 +1,58 @@
+{
+ "source": "Copernicus Browser export (Sentinel Hub), received from Prime Rogue",
+ "date_utc": "2026-10-14",
+ "product": "CO",
+ "note": "",
+ "original_upload": "5cf7c8ed-Browser_images_30.zip",
+ "original_upload_sha256": "858181a8d4a960d6bcbbd55ba74144ac2f5d37ab3a4c46fd83637b7f133048ac",
+ "files": {
+  "2026-10-14-00_00_2026-10-14-23_59_Sentinel-5P_CO_CO_(Raw).tiff": {
+   "bytes": 522,
+   "sha256": "4c1a553581fa48ec9cc194d4c83a3dd783583fd7c900b822451b282bde995b1a",
+   "bands": 1,
+   "shape": [
+    16,
+    23
+   ],
+   "bounds": [
+    -111.2338,
+    52.5659,
+    -110.5032,
+    52.8753
+   ],
+   "pixel_km_approx": [
+    2.14,
+    2.15
+   ],
+   "raw": true,
+   "valid_frac": 0.527,
+   "stats": {
+    "min": 0.02331,
+    "median": 0.02548,
+    "max": 0.02694,
+    "at_fire": null
+   }
+  },
+  "2026-10-14-00_00_2026-10-14-23_59_Sentinel-5P_CO_Carbon_Monoxide.tiff": {
+   "bytes": 631,
+   "sha256": "820b4f17299599c0060389de56df443ef226d76393891345f5921b588503d317",
+   "bands": 3,
+   "shape": [
+    16,
+    23
+   ],
+   "bounds": [
+    -111.2338,
+    52.5659,
+    -110.5032,
+    52.8753
+   ],
+   "pixel_km_approx": [
+    2.14,
+    2.15
+   ],
+   "raw": false
+  }
+ },
+ "licence": "Contains modified Copernicus Sentinel data [2026]"
+}

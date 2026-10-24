@@ -1,0 +1,58 @@
+{
+ "source": "Copernicus Browser export (Sentinel Hub), received from Prime Rogue",
+ "date_utc": "2026-10-14",
+ "product": "NO2",
+ "note": "",
+ "original_upload": "75b155c4-Browser_images_33.zip",
+ "original_upload_sha256": "a595fb8755ad740e423369de3b62fcc4887afb8c9656910407f28e07e62f7307",
+ "files": {
+  "2026-10-14-00_00_2026-10-14-23_59_Sentinel-5P_NO2_NO2_(Raw).tiff": {
+   "bytes": 502,
+   "sha256": "49f0c0641a227ba5462ed99539f6a54f77f5125f57cbfb0ccebc87e16d939fed",
+   "bands": 1,
+   "shape": [
+    16,
+    23
+   ],
+   "bounds": [
+    -111.2524,
+    52.5647,
+    -110.5218,
+    52.8741
+   ],
+   "pixel_km_approx": [
+    2.14,
+    2.15
+   ],
+   "raw": true,
+   "valid_frac": 0.253,
+   "stats": {
+    "min": 3.463e-06,
+    "median": 2.252e-05,
+    "max": 3.519e-05,
+    "at_fire": null
+   }
+  },
+  "2026-10-14-00_00_2026-10-14-23_59_Sentinel-5P_NO2_Nitrogen_Dioxide.tiff": {
+   "bytes": 588,
+   "sha256": "1d373af821933e46a587aef0e72f0b23a272e059cbea1df3ababf857cd981c61",
+   "bands": 3,
+   "shape": [
+    16,
+    23
+   ],
+   "bounds": [
+    -111.2524,
+    52.5647,
+    -110.5218,
+    52.8741
+   ],
+   "pixel_km_approx": [
+    2.14,
+    2.15
+   ],
+   "raw": false
+  }
+ },
+ "licence": "Contains modified Copernicus Sentinel data [2026]"
+}

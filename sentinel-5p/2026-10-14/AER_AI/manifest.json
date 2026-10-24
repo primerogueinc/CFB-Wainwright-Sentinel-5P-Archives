@@ -2,7 +2,7 @@
  "source": "Copernicus Browser export (Sentinel Hub), received from Prime Rogue",
  "date_utc": "2026-10-14",
  "product": "AER_AI",
- "note": "Partial: aerosol index only; small window (~50 x 34 km, 16 x 23 px). Baseline day.",
+ "note": "Partial: small window (~50 x 34 km). Baseline day.",
  "original_upload": "994596fc-Browser_images_28.zip",
  "original_upload_sha256": "99db57d99a1390494976694fa83889408cc8f8a56292e1bd3c661f69fa3cdded",
  "files": {
@@ -25,11 +25,12 @@
     2.15
    ],
    "raw": true,
+   "valid_frac": 1.0,
    "stats": {
-    "min": -0.0226,
-    "median": 1.5395,
-    "max": 2.5761,
-    "at_fire": 2.164
+    "min": -0.02261,
+    "median": 1.539,
+    "max": 2.576,
+    "at_fire": 2.164036
    }
   },
   "2026-10-14-00_00_2026-10-14-23_59_Sentinel-5P_AER_AI_AER_AI_340_and_380.tiff": {
@@ -71,11 +72,12 @@
     2.15
    ],
    "raw": true,
+   "valid_frac": 1.0,
    "stats": {
     "min": -0.2379,
-    "median": 1.0849,
-    "max": 1.9852,
-    "at_fire": 1.633
+    "median": 1.085,
+    "max": 1.985,
+    "at_fire": 1.63305
    }
   },
   "2026-10-14-00_00_2026-10-14-23_59_Sentinel-5P_AER_AI_AER_AI_354_and_388.tiff": {

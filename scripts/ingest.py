@@ -27,20 +27,28 @@ def main(zin, note):
             if name.lower().endswith((".tif", ".tiff")):
                 r = rasterio.open(f); a = r.read(1).astype("float64"); v = a[np.isfinite(a)]
                 info.update({"bands": r.count, "shape": list(r.shape), "bounds": [round(x, 4) for x in r.bounds],
-                             "pixel_km_approx": [round(r.res[0] * 111.32 * np.cos(np.radians(52.77)), 2), round(r.res[1] * 110.95, 2)],
+                             "pixel_km_approx": [float(round(r.res[0] * 111.32 * np.cos(np.radians(52.77)), 2)), round(r.res[1] * 110.95, 2)],
                              "raw": "(Raw)" in name})
-                if "(Raw)" in name and v.size:
+                if "(Raw)" in name:
                     i, j = r.index(*FIRE)
-                    info["stats"] = {"min": round(float(v.min()), 4), "median": round(float(np.median(v)), 4), "max": round(float(v.max()), 4),
-                                     "at_fire": round(float(a[i, j]), 4) if 0 <= i < a.shape[0] and 0 <= j < a.shape[1] else None}
+                    info["valid_frac"] = round(float(v.size) / a.size, 3)
+                    info["stats"] = None if not v.size else {"min": float(f"{v.min():.4g}"), "median": float(f"{np.median(v):.4g}"), "max": float(f"{v.max():.4g}"),
+                                     "at_fire": round(float(a[i, j]), 6) if np.isfinite(a[i, j]) and 0 <= i < a.shape[0] and 0 <= j < a.shape[1] else None}
             layers[name] = info
         man = {"source": "Copernicus Browser export (Sentinel Hub), received from Prime Rogue", "date_utc": date, "product": prod, "note": note or "",
                "original_upload": os.path.basename(zin), "original_upload_sha256": sha(zin), "files": layers,
                "licence": "Contains modified Copernicus Sentinel data [2026]"}
+        mp = os.path.join(dest, "manifest.json")
+        if os.path.exists(mp):  # second export for the same day/product: merge
+            old = json.load(open(mp)); old["files"].update(layers); man["files"] = old["files"]
+            ups = old.get("original_uploads") or [{"name": old.get("original_upload"), "sha256": old.get("original_upload_sha256")}]
+            ups = [u for u in ups if u["name"] != man["original_upload"]] + [{"name": man["original_upload"], "sha256": man["original_upload_sha256"]}]
+            man.pop("original_upload"); man.pop("original_upload_sha256"); man["original_uploads"] = ups
+            if old.get("note") and not man["note"]: man["note"] = old["note"]
         for f in fs: shutil.copy2(f, dest)
         json.dump(man, open(os.path.join(dest, "manifest.json"), "w"), indent=1)
-        r0 = next(v for v in layers.values() if v.get("stats"))
-        print(date, prod, len(fs), r0["shape"], r0["pixel_km_approx"], r0["stats"])
+        r0 = next((v for v in layers.values() if v.get("stats")), {})
+        print(date, prod, len(fs), r0.get("shape"), r0.get("pixel_km_approx"), r0.get("stats"))
     shutil.rmtree(tmp)
 if __name__ == "__main__":
     main(sys.argv[1], sys.argv[sys.argv.index("--note") + 1] if "--note" in sys.argv else None)

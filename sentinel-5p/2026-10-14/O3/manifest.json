@@ -1,0 +1,31 @@
+{
+ "source": "Copernicus Browser export (Sentinel Hub), received from Prime Rogue",
+ "date_utc": "2026-10-14",
+ "product": "O3",
+ "note": "",
+ "original_upload": "o3.zip",
+ "original_upload_sha256": "7b7fcaf40b708546a4ea8ef4efe9f4f9de9cf621c2ce9ab12192017ad4245ae5",
+ "files": {
+  "2026-10-14-00_00_2026-10-14-23_59_Sentinel-5P_O3_Ozone.tiff": {
+   "bytes": 903,
+   "sha256": "f31d8913566724302f171f05664912d3f810d5f6200f1c291ff46f9c10d00fc2",
+   "bands": 3,
+   "shape": [
+    16,
+    23
+   ],
+   "bounds": [
+    -111.2531,
+    52.5697,
+    -110.5225,
+    52.8791
+   ],
+   "pixel_km_approx": [
+    2.14,
+    2.15
+   ],
+   "raw": false
+  }
+ },
+ "licence": "Contains modified Copernicus Sentinel data [2026]"
+}

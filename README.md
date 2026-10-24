@@ -10,8 +10,15 @@ Each folder `sentinel-5p/<date UTC>/<product>/` holds the files exactly as expor
 
 | Date (UTC) | Product | Files | Window | Note |
 |---|---|---|---|---|
-| 2026-10-14 | AER_AI | 4 | ~50 × 34 km | Baseline. Partial: aerosol index only, small window. Median index 1.54, 2.16 over the fire site. |
+| 2026-10-14 | AER_AI | 4 | ~50 × 34 km | Baseline. Full coverage. Median index 1.54 (340/380 nm), 2.16 over the fire site. |
+| 2026-10-14 | CO | 2 | ~50 × 34 km | 53% of pixels valid; fire site masked. Median 0.0255 mol/m². |
+| 2026-10-14 | NO2 | 2 | ~50 × 34 km | 25% valid; fire site masked. Exported twice (identical). |
+| 2026-10-14 | HCHO | 2 | ~50 × 34 km | 17% valid; values at noise level. |
+| 2026-10-14 | CH4 | 2 | ~50 × 34 km | No valid pixels (quality-filtered, likely cloud). |
+| 2026-10-14 | SO2 | 4 | ~50 × 34 km | No valid pixels. TIFF and JPG exports. |
+| 2026-10-14 | O3 | 1 | ~50 × 34 km | Visualised layer only (no raw values). |
 
+Most gas products are quality-filtered under cloud, so on cloudy days only the aerosol index covers the area. From Oct 16 on, exports cover a wider window and only AER_AI, CO and NO2.
 ## Adding an export
 
 ```

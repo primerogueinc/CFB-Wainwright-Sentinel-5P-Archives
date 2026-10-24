@@ -1,0 +1,69 @@
+{
+ "source": "Copernicus Browser export (Sentinel Hub), received from Prime Rogue",
+ "date_utc": "2026-10-14",
+ "product": "SO2",
+ "note": "",
+ "files": {
+  "2026-10-14-00_00_2026-10-14-23_59_Sentinel-5P_SO2_SO2_(Raw).tiff": {
+   "bytes": 402,
+   "sha256": "c37e62813f09be9c889670310674ae14b075d12ea2c79af8e748c11a8a6a4587",
+   "bands": 1,
+   "shape": [
+    16,
+    23
+   ],
+   "bounds": [
+    -111.2531,
+    52.5697,
+    -110.5225,
+    52.8791
+   ],
+   "pixel_km_approx": [
+    2.14,
+    2.15
+   ],
+   "raw": true,
+   "valid_frac": 0.0,
+   "stats": null
+  },
+  "2026-10-14-00_00_2026-10-14-23_59_Sentinel-5P_SO2_Sulfur_Dioxide.tiff": {
+   "bytes": 433,
+   "sha256": "2a2939ed66cf99fdd9352c0f7ddea9c980e58ccbddf8423ee4ac1d32ff48b81f",
+   "bands": 3,
+   "shape": [
+    16,
+    23
+   ],
+   "bounds": [
+    -111.2531,
+    52.5697,
+    -110.5225,
+    52.8791
+   ],
+   "pixel_km_approx": [
+    2.14,
+    2.15
+   ],
+   "raw": false
+  },
+  "2026-10-14-00_00_2026-10-14-23_59_Sentinel-5P_SO2_SO2_(Raw).jpg": {
+   "bytes": 337,
+   "sha256": "ed1a96061662b3180c9e65d2d24741d4eb64e73e4eddbf976414a84148b21348"
+  },
+  "2026-10-14-00_00_2026-10-14-23_59_Sentinel-5P_SO2_Sulfur_Dioxide.jpg": {
+   "bytes": 638,
+   "sha256": "3132cb43b19b502c7a36214edde4e627b72a9b9a2383bb4676cb9efd73d477e9"
+  }
+ },
+ "licence": "Contains modified Copernicus Sentinel data [2026]",
+ "original_uploads": [
+  {
+   "name": "15657bd8-Browser_images_35.zip",
+   "sha256": "4f7b4ca7748e03a1c19457faf4a558af0ccb0aa45012c6f6b96447fdfc271eae"
+  },
+  {
+   "name": "c37b1939-Browser_images_34.zip",
+   "sha256": "937df2c8cf959b8f7127b942a7a778086d47cacc80acbf9ed178646bb0ccd355"
+  }
+ ]
+}
