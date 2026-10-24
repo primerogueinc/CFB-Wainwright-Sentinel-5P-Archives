@@ -3,8 +3,6 @@
  "date_utc": "2026-10-18",
  "product": "CO",
  "note": "",
- "original_upload": "28b2b553-Browser_images_36.zip",
- "original_upload_sha256": "426be77bae6c8c4b24252ded6c138b562e4d21f8a20703e8c1ad8cdc48aa5748",
  "files": {
   "2026-10-18-00_00_2026-10-18-23_59_Sentinel-5P_CO_CO_(Raw).jpg": {
    "bytes": 8449,
@@ -13,7 +11,64 @@
   "2026-10-18-00_00_2026-10-18-23_59_Sentinel-5P_CO_Carbon_Monoxide.jpg": {
    "bytes": 58264,
    "sha256": "fdabae79de468d27f31938ac47ef4de6ece90e653efc20d60444500b5cc78bf7"
+  },
+  "2026-10-18-00_00_2026-10-18-23_59_Sentinel-5P_CO_CO_(Raw).tiff": {
+   "bytes": 73980,
+   "sha256": "64401a7788620b0dd965485d9adaa637e31b962029f1e6ed09a80c21d24f5d61",
+   "bands": 1,
+   "shape": [
+    260,
+    372
+   ],
+   "bounds": [
+    -116.8398,
+    50.1417,
+    -105.1503,
+    55.0972
+   ],
+   "pixel_km_approx": [
+    2.12,
+    2.11
+   ],
+   "raw": true,
+   "valid_frac": 0.709,
+   "stats": {
+    "min": 0.01838,
+    "median": 0.02972,
+    "max": 0.03879,
+    "at_fire": 0.029475
+   }
+  },
+  "2026-10-18-00_00_2026-10-18-23_59_Sentinel-5P_CO_Carbon_Monoxide.tiff": {
+   "bytes": 95960,
+   "sha256": "0c0b5ce1733c55adc11e54f79cb8ae6f035fbf2025dfa1faefff60c88a228b21",
+   "bands": 3,
+   "shape": [
+    260,
+    372
+   ],
+   "bounds": [
+    -116.8398,
+    50.1417,
+    -105.1503,
+    55.0972
+   ],
+   "pixel_km_approx": [
+    2.12,
+    2.11
+   ],
+   "raw": false
   }
  },
- "licence": "Contains modified Copernicus Sentinel data [2026]"
+ "licence": "Contains modified Copernicus Sentinel data [2026]",
+ "original_uploads": [
+  {
+   "name": "28b2b553-Browser_images_36.zip",
+   "sha256": "426be77bae6c8c4b24252ded6c138b562e4d21f8a20703e8c1ad8cdc48aa5748"
+  },
+  {
+   "name": "15def58e-Browser_images_37.zip",
+   "sha256": "c4c8043a94d51dd84f5591b0580e97ca33120b94f65a266e19408ce9907f6a81"
+  }
+ ]
 }
