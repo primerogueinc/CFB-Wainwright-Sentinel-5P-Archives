@@ -46,3 +46,7 @@ python3 scripts/ingest.py path/to/Browser_images.zip [--note "..."]
 Scripts and documentation: see LICENSE. Data: contains modified Copernicus Sentinel data [2026].
 
 Maintained by Prime Rogue Inc.
+
+## Native pixels, Oct. 17 afternoon orbits (added Nov. 27, 2026)
+
+[`sentinel-5p/2026-10-17/L2_orbits_46696_46697/`](sentinel-5p/2026-10-17/L2_orbits_46696_46697/): NO2, aerosol index, aerosol layer height and CO from both orbits that crossed the base (about 12:55 and 2:34 p.m. MDT), native pixels with quality values, clipped to 300 km. The SW–NE aerosol band moved about 35–40 km south-east between the two orbits (roughly 22–25 km/h); no separate plume from the burn and no NO2 plume. See that folder's README.

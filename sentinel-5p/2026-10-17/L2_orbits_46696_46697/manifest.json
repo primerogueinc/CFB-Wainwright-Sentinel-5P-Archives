@@ -1,0 +1,58 @@
+{
+ "source": "Microsoft Planetary Computer, collection sentinel-5p-l2-netcdf (NRTI granules), downloaded Nov. 27, 2026",
+ "burn_centre_lat_lon": [
+  52.7645,
+  -110.9052
+ ],
+ "clip": "pixels whose centre is within 300 km of the burn centre",
+ "files": {
+  "S5P_NRTI_L2_AER_AI_orbit46696_within300km.csv": {
+   "source_file": "S5P_NRTI_L2__AER_AI_20261017T185254_20261017T185754_46696_03_020901_20261017T204246.nc",
+   "source_sha256": "cc9654b7bd3b6b1e04ce65b7f295f6568904027bd3694491e07bc94a8a1787c3",
+   "rows": 3225,
+   "sha256": "b974fbf4402fd02e7540956665e224cb8c1c5e2e87e1dcd2c0055c37fcd5159a"
+  },
+  "S5P_NRTI_L2_AER_AI_orbit46697_within300km.csv": {
+   "source_file": "S5P_NRTI_L2__AER_AI_20261017T203254_20261017T203754_46697_03_020901_20261017T222202.nc",
+   "source_sha256": "c467e08edb29d48ca8bad76a5c1c02249eb2be1632fcc37586fbaa58e498d1e5",
+   "rows": 12452,
+   "sha256": "087315a36958096fb827b6757df1a05ffd4f05ec29d11f1df1b8aa22472927c2"
+  },
+  "S5P_NRTI_L2_AER_LH_orbit46696_within300km.csv": {
+   "source_file": "S5P_NRTI_L2__AER_LH_20261017T185254_20261017T185754_46696_03_020901_20261017T204725.nc",
+   "source_sha256": "9714f56a8fc0c1f563541191122bbfe31a7077cc6a05ef0273eb5c855e8d087b",
+   "rows": 3010,
+   "sha256": "a6b182da45d22fc120b632fdbddf747117a1ef32f29a5423e8d3f51367b7378a"
+  },
+  "S5P_NRTI_L2_AER_LH_orbit46697_within300km.csv": {
+   "source_file": "S5P_NRTI_L2__AER_LH_20261017T203254_20261017T203754_46697_03_020901_20261017T222617.nc",
+   "source_sha256": "fd81e64e46cc61a63139ea2384ba242d42e36e3c119e5b0aa4dcd012041586fd",
+   "rows": 12438,
+   "sha256": "c06f8e7688c1ae95590e337f9569db150d7854529cf6cee18f0c97e8fb7a1902"
+  },
+  "S5P_NRTI_L2_CO_orbit46696_within300km.csv": {
+   "source_file": "S5P_NRTI_L2__CO_____20261017T185254_20261017T185754_46696_03_020901_20261017T204245.nc",
+   "source_sha256": "d1d13757aba37ab1242952a41e5593184222cc81779de60a4123bfe3e29f47df",
+   "rows": 1045,
+   "sha256": "a49d4db942c1ecec6c2f7915f76c6d245b8e99773a9581484d9e7a6e340f7229"
+  },
+  "S5P_NRTI_L2_CO_orbit46697_within300km.csv": {
+   "source_file": "S5P_NRTI_L2__CO_____20261017T203254_20261017T203754_46697_03_020901_20261017T222201.nc",
+   "source_sha256": "2dedd885ae0b008f9235d0da28797e52c3821394cb55b965f05e429f8662fadd",
+   "rows": 6285,
+   "sha256": "30db73a02b95bd169ae4d046906783966b2220b8007c0a447d344858bdc9b0e0"
+  },
+  "S5P_NRTI_L2_NO2_orbit46696_within300km.csv": {
+   "source_file": "S5P_NRTI_L2__NO2____20261017T185254_20261017T185754_46696_03_020901_20261017T204725.nc",
+   "source_sha256": "192a5a98e28d9c501ae64d13c53b4209e76c916f246b3f5359beca65ddb46388",
+   "rows": 3225,
+   "sha256": "4ab09c36f99c80946adf29f0dcba01c9ee333a8c195363f91a9b619985b1edeb"
+  },
+  "S5P_NRTI_L2_NO2_orbit46697_within300km.csv": {
+   "source_file": "S5P_NRTI_L2__NO2____20261017T203254_20261017T203754_46697_03_020901_20261017T222618.nc",
+   "source_sha256": "e467b627d53218fa282faae256bec855723b879c0194c3c7fc7e4f82e46a56f4",
+   "rows": 12452,
+   "sha256": "026dbb71c9653decf0f1e19cd56bfa44b876a0c7bd5f192bd8c796d69600ad13"
+  }
+ }
+}
